@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # Hint 1: Iterate through tuple use for loop
     # Hint 2: Check even number by `%2 == 0`
     # Hint 3: Either use variable addition in each iteration ,
-    #         or store even value first and perfom summation same as in Part 1
+    #         or store even value first and perform summation same as in Part 1
     # ...
     # ans3 =
 
