@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Jupyter notebook
+.ipynb_checkpoints
 # C extensions
 *.so
 
