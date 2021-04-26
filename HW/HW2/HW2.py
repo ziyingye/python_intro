@@ -1,6 +1,3 @@
-
-
-
 if __name__ == '__main__':
     pass
 
@@ -27,7 +24,28 @@ if __name__ == '__main__':
 
     '''1. While Loop'''
     # ...
+    i: int = 0
+    lst: list = []
+    # [-5,5] -> seq[i] < -5
+    while i < len(seq):
+        # if seq[i] % 2 != 0 and -5 <= seq[i] <= 5:
+        #     lst.append(seq[i])
+        if (seq[i] % 2 == 0) or (seq[i] < -5) or (seq[i] > 5):
+            i += 1
+            continue
+        lst.append(seq[i])
+        i += 1
+    print(lst)
+
     '''2. For Loop'''
-    # ...
+    ...
+    lst = []
+    for i in seq:
+        if not i % 2 == 0 and -5 <= i <= 5:
+            lst.append(i)
+    print(lst)
+
     '''3. List Comprehension'''
     # ...
+    lst = [i for i in seq if i % 2 != 0 and -5 <= i <= 5]
+    print(lst)
